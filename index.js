@@ -9,3 +9,10 @@ function writeCards(recipients, reason){
   
   return messages;
 }
+
+function countDown(startingNumber){
+  while(startingNumber > -1){
+    console.log(startingNumber);
+    startingNumber--;
+  }  
+}
